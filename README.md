@@ -1,2 +1,17 @@
-# ecourts_scraper.py
-The eCourts Scraper is a Python-based tool that automates fetching and organizing case listings from the official eCourts India portal. It helps users quickly check whether a case is listed today or tomorrow, find its serial number, and identify the court name — all without manually searching the website.
+
+# eCourts Scraper (Intern Task)
+
+A Python script that simulates fetching case listings and cause lists from the eCourts website.
+
+## 🧩 Features
+- Check case status by CNR or case details
+- Verify if listed today/tomorrow
+- Save results as JSON
+- Download today's cause list (simulated)
+- CLI options for automation
+
+## 🧠 Requirements
+- Python 3.8+
+- Install dependencies:
+  ```bash
+  pip install requests
